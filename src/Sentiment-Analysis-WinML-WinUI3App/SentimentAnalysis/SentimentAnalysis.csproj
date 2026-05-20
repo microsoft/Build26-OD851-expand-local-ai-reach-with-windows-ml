@@ -14,7 +14,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="AIModels\sentiment\generic\merges.txt" />
-    <None Remove="AIModels\sentiment\generic\sentiment.onnx" />
+    <None Remove="AIModels\sentiment\generic\model.onnx" />
     <None Remove="AIModels\sentiment\generic\model.onnx.data" />
     <None Remove="AIModels\sentiment\generic\sentiment_htp_metadata.json" />
     <None Remove="AIModels\sentiment\generic\vocab.json" />
@@ -22,7 +22,7 @@
 
   <ItemGroup>
     <Content Include="AIModels\sentiment\generic\merges.txt" />
-    <Content Include="AIModels\sentiment\generic\sentiment.onnx" />
+    <Content Include="AIModels\sentiment\generic\model.onnx" />
     <Content Include="AIModels\sentiment\generic\model.onnx.data" />
     <Content Include="AIModels\sentiment\generic\sentiment_htp_metadata.json" />
     <Content Include="AIModels\sentiment\generic\vocab.json" />
