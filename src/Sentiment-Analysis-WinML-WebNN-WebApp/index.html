@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoso Support Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="importmap">
+    {
+        "imports": {
+            "onnxruntime-web/experimental": "./node_modules/onnxruntime-web/dist/ort.all.min.mjs"
+        }
+    }
+    </script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <h1>Contoso Support Dashboard</h1>
+            <div class="header-controls">
+                <span id="modelStatus" class="model-status">Initializing model…</span>
+                <button id="toggleStream" class="toggle-btn" disabled>▶ Resume</button>
+            </div>
+        </header>
+
+        <!-- Stats Cards -->
+        <div class="stats-row">
+            <div class="stat-card">
+                <div class="stat-label">Total Messages</div>
+                <div class="stat-value" id="totalMessages">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Messages/sec</div>
+                <div class="stat-value" id="messagesPerSec">0.0</div>
+            </div>
+            <div class="stat-card stat-positive">
+                <div class="stat-label">😊 Positive</div>
+                <div class="stat-value" id="positiveCount">0</div>
+            </div>
+            <div class="stat-card stat-neutral">
+                <div class="stat-label">😐 Neutral</div>
+                <div class="stat-value" id="neutralCount">0</div>
+            </div>
+            <div class="stat-card stat-negative">
+                <div class="stat-label">😠 Negative</div>
+                <div class="stat-value" id="negativeCount">0</div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content-grid">
+            <!-- Chart Panel -->
+            <div class="panel chart-panel">
+                <div class="panel-header">
+                    <h2>Sentiment Trend</h2>
+                    <div class="chart-legend">
+                        <span class="legend-item legend-positive">● Positive</span>
+                        <span class="legend-item legend-neutral">● Neutral</span>
+                        <span class="legend-item legend-negative">● Negative</span>
+                    </div>
+                </div>
+                <canvas id="sentimentChart"></canvas>
+            </div>
+
+            <!-- Message Feed Panel -->
+            <div class="panel feed-panel">
+                <h2>Live Message Feed</h2>
+                <div id="messageFeed" class="message-feed"></div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

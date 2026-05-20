@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SentimentAnalysis (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "SentimentAnalysis (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
