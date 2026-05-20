@@ -67,7 +67,7 @@ public sealed class SentimentAnalyzerService
         var sessionOptions = CreateConfiguredSessionOptions(env);
         //1
         OnStatusChanged("Loading ONNX model...");
-        var modelPath = Path.Combine(basePath, "sentiment.onnx");
+        var modelPath = Path.Combine(basePath, "model.onnx");
         _inferenceSession = await Task.Run(() =>
         {
             try
