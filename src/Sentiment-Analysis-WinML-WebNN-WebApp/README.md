@@ -21,7 +21,7 @@ Before running the app you need to export the sentiment analysis model into the 
 
 ### Install Windows ML CLI
 
-> **TBD** — Windows ML CLI acquisition steps will be added here.
+>  Go to aka.ms/winmlcli for instructions to install WinML CLI 
 
 <!--
 # Create a Python 3.10 virtual environment
