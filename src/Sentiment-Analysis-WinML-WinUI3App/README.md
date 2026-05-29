@@ -10,9 +10,8 @@ The app includes a pop-out overlay window so support managers can monitor custom
 
 | Requirement | Details |
 |:------------|:--------|
-| **Visual Studio 2022** | With the **.NET desktop development** and **Windows App SDK** workloads installed |
 | **Windows 10** | Version 1809 (build 17763) or later; targets build 19041 |
-| **.NET 8** | Project targets `net8.0-windows10.0.19041.0` |
+| **.NET 10** | Project targets `net10.0-windows10.0.19041.0` |
 | **Windows ML CLI** | Used to export the sentiment model from Hugging Face (see [Model Setup](#model-setup)) |
 
 ## Model Setup
@@ -52,22 +51,15 @@ AIModels/sentiment/generic/
 ├── model.onnx.data
 ├── vocab.json
 ├── merges.txt
-└── sentiment_htp_metadata.json
+└── model_htp_metadata.json
 ```
 
 ## Getting Started
 
-1. **Clone the repository** and open `SentimentAnalysis.sln` in Visual Studio 2022.
-
-2. **Restore NuGet packages** — Visual Studio will restore them automatically on build, or run:
-
-   ```bash
-   dotnet restore
-   ```
-
-3. **Select a platform** — Choose `x64` or `ARM64` from the Solution Platforms dropdown.
-
-4. **Build and run** — Press `F5` to build and launch the app.
+```bash
+cd SentimentAnalysis
+dotnet run
+```
 
 ## How It Works
 
