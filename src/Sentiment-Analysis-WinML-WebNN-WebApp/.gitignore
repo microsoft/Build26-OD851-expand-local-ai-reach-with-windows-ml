@@ -20,5 +20,8 @@ Thumbs.db
 *.log
 
 # Model files
-model/*
+# Large ONNX model and metadata files
+*.onnx
+*.onnx.data
+*_htp_metadata.json
 !model/.gitkeep
