@@ -38,6 +38,8 @@ winml hub  # to get the models available
 
 ### Export the Model
 
+Make sure you’re in the `SentimentAnalysis` folder before running the command below.
+
 ```bash
 winml export -m cardiffnlp/twitter-roberta-base-sentiment-latest -o AIModels/sentiment/generic/model.onnx
 ```
