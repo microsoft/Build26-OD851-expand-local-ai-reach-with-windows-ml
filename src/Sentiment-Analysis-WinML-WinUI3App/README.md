@@ -21,7 +21,7 @@ The model files are included in the project under `AIModels\sentiment\generic\` 
 
 ### Install Windows ML CLI
 
-> **TBD** — Windows ML CLI acquisition steps will be added here.
+> Go to aka.ms/winmlcli for instructions to install WinML CLI 
 
 <!--
 # Create a Python 3.10 virtual environment
