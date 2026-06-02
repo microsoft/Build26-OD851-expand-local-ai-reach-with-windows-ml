@@ -19,6 +19,17 @@ If you're following along at your own pace:
 - Set up your development environment
 - <!-- step 3 -->
 
+### 💾 Code Samples
+
+The demo code for this session lives in the [`src/`](./src) folder. There are two sample apps:
+
+| Sample | Description |
+|:-------|:------------|
+| [Sentiment Analysis — WebNN Web App](./src/Sentiment-Analysis-WinML-WebNN-WebApp) | Web-based sentiment analysis dashboard using ONNX Runtime Web and WebNN, powered by Windows ML in the browser |
+| [Sentiment Analysis — WinUI 3 Native App](./src/Sentiment-Analysis-WinML-WinUI3App) | Native Windows desktop sentiment analysis dashboard using Windows ML and Windows App SDK |
+
+See the [`src/` README](./src/README.md) for an overview, and each sample's own README for setup and run instructions.
+
 ### 🧠 Learning Outcomes
 
 By the end of this demo, you will be able to:
