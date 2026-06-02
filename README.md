@@ -16,8 +16,7 @@ Learn how to run custom and open-source AI models locally on Windows using Windo
 
 If you're following along at your own pace:
 - Clone this repository
-- Set up your development environment
-- <!-- step 3 -->
+- Then see instructions in the code samples for next steps
 
 ### 💾 Code Samples
 
