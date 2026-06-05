@@ -68,6 +68,7 @@ Use these as a starting point — or write your own!
 | [AI Dev Gallery](https://learn.microsoft.com/windows/ai/ai-dev-gallery/) | Sample app with numerous AI models running locally via Windows ML, including code snippets |
 | [Microsoft Foundry on Windows overview](https://learn.microsoft.com/windows/ai/overview) | Learn about Windows AI APIs, Foundry Local, and Windows ML together |
 | [https://aka.ms/build26-next-steps](https://aka.ms/build26-next-steps) | Explore lab and demo repos to further your learning from Microsoft Build |
+| [Watch the session recording](https://aka.ms/build26/OD851/youtube) | Watch the recorded Microsoft Build session. |
 
 
 ### 🌟 Microsoft Learn MCP Server
